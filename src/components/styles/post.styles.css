@@ -11,13 +11,26 @@
   }
 }
 
-a {
-}
 .postHead {
   font-family: serif;
   color: #02d1d1;
   text-align: center;
 }
 .content {
+  color: white;
+}
+/* visited link */
+.links {
+  color: gray;
+}
+.links:visited {
+  color: gray;
+}
+
+.links:hover {
+  color: #02d1d1;
+}
+
+.links:active {
   color: white;
 }

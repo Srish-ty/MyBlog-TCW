@@ -5,7 +5,9 @@ export const Post = ({ d }) => {
   return (
     <article className="post" key={d.index}>
       <a to={d.route}>
-        <h1 className="postHead">{d.heading}</h1>
+        <h1 className="postHead" to={d.route}>
+          {d.heading}
+        </h1>
       </a>
       <p className="content">{d.content}</p>
     </article>

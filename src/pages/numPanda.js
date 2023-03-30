@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const d = {
   index: 1,
-  heading: "This is the second page",
+  heading: "My notes for Numpy & Pandas",
   content:
     "Many students came to me saying they want to get started in Data science or Machine Learning. But don't have any resources or are confused about where to start from. I'm sahring my notes for numpy which I made using notion. You can find them below:",
   iframe0: "https://notioniframe.com/notion/10kdmsnglay",

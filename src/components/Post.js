@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles.css";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import "./styles/post.styles.css";
 
@@ -12,6 +12,9 @@ export const Post = ({ d }) => {
           <h1 className="postHead">{d.heading}</h1>
         </Link>
         <p className="content">{d.content}</p>
+        <Link className="links" to={d.route}>
+          {d.cap}
+        </Link>
       </article>
     </div>
   );

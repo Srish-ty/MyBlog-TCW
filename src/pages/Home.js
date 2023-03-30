@@ -1,5 +1,6 @@
 import { Post } from "../components/Post";
 import { Header } from "../components/Header";
+import { Link } from "react-router-dom";
 
 const data = [
   {
@@ -42,6 +43,7 @@ const data = [
     content:
       "Feature Engineering : It is basically machine learning technique for creating features based on the raw data given. It refers to transforming & training data and augmenting it with additional, more useful features to make ML more effective. For example, let’s take take a dataset where we have two variables. call-time and calling-rate. It’s always…",
     route: "/Loremipsum",
+    cap: "Read more",
   },
   {
     index: 7,
@@ -49,6 +51,7 @@ const data = [
     content:
       "Recently, the new documentation of react has been released, which you can find on React.dev site . That’s what made me write about this short post. If you’ve just started learning React, you must have come across a syntax, which looks something like this: That’s basically used as short-hand for the following code: You must…",
     route: "/conditionalrendering",
+    cap: "Read more",
   },
 ];
 
@@ -58,7 +61,9 @@ const Home = () => {
       <Header />
       <div className="post_container">
         {data.map((datum) => (
-          <Post d={datum} />
+          <>
+            <Post d={datum} />
+          </>
         ))}
       </div>
     </>

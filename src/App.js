@@ -1,4 +1,5 @@
 import { Post } from "./components/Post";
+import { Header } from "./components/Header";
 import "./styles.css";
 
 const data = [
@@ -18,10 +19,14 @@ const data = [
     content: "whoa",
   },
 ];
+
 export default function App() {
   return (
-    <div className="post_container">
-      <Post data={data} />
-    </div>
+    <>
+      <Header />
+      <div className="post_container">
+        <Post data={data} />
+      </div>
+    </>
   );
 }

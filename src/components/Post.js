@@ -1,11 +1,31 @@
 import React from "react";
+import "../styles.css";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+
 import "./styles/post.styles.css";
 
-export const Post = ({ data }) => {
-  return data.map((d) => (
-    <article className="post" key={d.index}>
-      <h1 className="postHead">{d.heading}</h1>
-      <p className="content">{d.content}</p>
-    </article>
-  ));
+export const Post = ({ d }) => {
+  return (
+    <div className="post_container">
+      <article className="post" key={d.index}>
+        <Link className="links" to={d.route}>
+          <h1 className="postHead">{d.heading}</h1>
+        </Link>
+        <p className="content">{d.content}</p>
+      </article>
+    </div>
+  );
+  console.log(d.route);
+};
+
+export const PostContainer = () => {
+  return <article className="post"></article>;
+};
+
+export const PostHead = () => {
+  return <h1 className="postHead"></h1>;
+};
+
+export const Content = () => {
+  return <p className="content"></p>;
 };

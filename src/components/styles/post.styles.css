@@ -10,10 +10,14 @@
     margin: auto;
   }
 }
+
+a {
+}
 .postHead {
   font-family: serif;
   color: #02d1d1;
   text-align: center;
 }
 .content {
+  color: white;
 }

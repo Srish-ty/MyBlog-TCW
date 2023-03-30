@@ -34,3 +34,16 @@
 .links:active {
   color: white;
 }
+/* --*/
+
+.ifra {
+  width: 100%;
+  height: 100vh;
+  border: 0;
+  padding: 0;
+}
+/*
+*/
+.alink {
+  color: #02d1d1;
+}

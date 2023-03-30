@@ -15,15 +15,19 @@ export const Post = ({ d }) => {
 
         {d.iframe && <iframe className="ifra" src={d.iframe}></iframe>}
         <p className="content">{d.p1}</p>
-        <a className="alink" href={d.link.url}>
-          {d.link.text}
-        </a>
+        {d.link && (
+          <a className="alink" href={d.link.url}>
+            {d.link.text}
+          </a>
+        )}
 
         <p className="content">{d.p2}</p>
         {d.ifra1 && <iframe className="ifra" src={d.ifra1}></iframe>}
-        <a className="alink" href={d.link1.url}>
-          {d.link1.text}
-        </a>
+        {d.link1 && (
+          <a className="alink" href={d.link1.url}>
+            {d.link1.text}
+          </a>
+        )}
         <Link className="links" to={d.route}>
           {d.cap}
         </Link>

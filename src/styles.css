@@ -1,0 +1,10 @@
+.post_container {
+  margin: -2vw;
+  padding: 2vw;
+  background-color: #062933;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
+}

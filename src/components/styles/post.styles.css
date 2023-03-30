@@ -1,0 +1,14 @@
+.post {
+  width: 600px;
+  margin: auto;
+  border: 1px solid aqua;
+}
+@media only screen and (max-width: 600px) {
+  .post {
+    width: 80%;
+    margin: auto;
+  }
+}
+.postHead {
+  color: aqua;
+}

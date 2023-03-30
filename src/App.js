@@ -18,6 +18,12 @@ const data = [
     heading: "Learn PHP",
     content: "whoa",
   },
+  {
+    index: 3,
+    heading: "Learn PHP",
+    content:
+      "In php, we use built-in PHP function “echo” to output the text. php statements end with (;) semicolon. any keyword, class or function in php is case sensitive. so any of the following methods outputs the same ‘hello World!’",
+  },
 ];
 
 export default function App() {

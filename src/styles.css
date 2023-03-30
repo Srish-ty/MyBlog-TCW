@@ -4,9 +4,14 @@
   padding: 2vw;
   background-color: #062933;
   color: white;
-  font-family: sans-serif;
+  font-family: "Trebuchet MS", sans-serif;
   display: flex;
   flex-direction: column-reverse;
 
   font-size: 1.5em;
+}
+@media only screen and (max-width: 600px) {
+  .post_container {
+    font-size: 1.2em;
+  }
 }

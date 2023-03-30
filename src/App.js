@@ -43,6 +43,12 @@ const data = [
     content:
       "Feature Engineering : It is basically machine learning technique for creating features based on the raw data given. It refers to transforming & training data and augmenting it with additional, more useful features to make ML more effective. For example, let’s take take a dataset where we have two variables. call-time and calling-rate. It’s always…",
   },
+  {
+    index: 7,
+    heading: "Inline conditional rendering in React.js",
+    content:
+      "Recently, the new documentation of react has been released, which you can find on React.dev site . That’s what made me write about this short post. If you’ve just started learning React, you must have come across a syntax, which looks something like this: That’s basically used as short-hand for the following code: You must…",
+  },
 ];
 
 export default function App() {

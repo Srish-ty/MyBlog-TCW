@@ -1,5 +1,6 @@
 import { Post, PostContainer, PostHead, Content } from "../components/Post";
 import { Header } from "../components/Header.js";
+import { Link } from "react-router-dom";
 
 const d = {
   index: 1,

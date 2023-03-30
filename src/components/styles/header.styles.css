@@ -23,3 +23,16 @@
 .blog-name {
   color: gray;
 }
+
+/* visited link */
+.links:visited {
+  color: gray;
+}
+
+.links:hover {
+  color: #02d1d1;
+}
+
+.links:active {
+  color: white;
+}

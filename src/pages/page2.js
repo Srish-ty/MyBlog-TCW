@@ -1,4 +1,5 @@
 import { Post, PostContainer, PostHead, Content } from "../components/Post";
+import { Header } from "../components/Header.js";
 
 const d = {
   index: 1,
@@ -8,15 +9,23 @@ const d = {
 };
 
 const Page2name = () => {
-  reutrn(<Post d={d} />);
+  return (
+    <>
+      <Header />
+      <Post d={d} />
+    </>
+  );
 };
 export default Page2name;
 
 export const Pagename0 = () => {
-  reutrn(
-    <PostContainer>
-      <PostHead></PostHead>
-      <Content></Content>
-    </PostContainer>
+  return (
+    <>
+      <Header />
+      <PostContainer>
+        <PostHead>{d.heading}</PostHead>
+        <Content>{d.content}</Content>
+      </PostContainer>
+    </>
   );
 };

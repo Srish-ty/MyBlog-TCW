@@ -16,7 +16,7 @@ export const Pagename = () => {
   return (
     <>
       <Header />
-      <PostHead></PostHead>
+      <Post d={d} />
     </>
   );
 };

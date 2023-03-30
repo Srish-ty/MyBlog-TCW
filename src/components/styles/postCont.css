@@ -1,0 +1,12 @@
+.post_container {
+  height: 100%;
+  margin: -2vw;
+  padding: 2vw;
+  background-color: #062933;
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column-reverse;
+
+  font-size: 1.5em;
+}

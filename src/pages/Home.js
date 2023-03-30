@@ -53,6 +53,14 @@ const data = [
     route: "/conditionalrendering",
     cap: "Read more",
   },
+  {
+    index: 8,
+    heading: "My notes for Numpy & Pandas",
+    content:
+      "Many students came to me saying they want to get started in Data science or Machine Learning. But don't have any resources or are confused about where to start from. I'm sahring my notes for numpy which I made using notion...",
+    route: "/Numpy-and-pandas",
+    cap: "Read more",
+  },
 ];
 
 const Home = () => {

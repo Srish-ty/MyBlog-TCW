@@ -1,4 +1,5 @@
 import { Post, PostContainer, PostHead, Content } from "../components/Post";
+import { Header } from "../components/Header.js";
 
 const d = {
   index: 0,
@@ -13,10 +14,10 @@ const Pagename = () => {
 */
 export const Pagename = () => {
   return (
-    <article>
-      <h1>Heyy</h1>
-      <p>{d.content}</p>
-    </article>
+    <>
+      <Header />
+      <PostHead></PostHead>
+    </>
   );
 };
 export default Pagename;

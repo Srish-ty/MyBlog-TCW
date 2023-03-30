@@ -2,10 +2,10 @@ import React from "react";
 import "./styles/post.styles.css";
 
 export const Post = ({ data }) => {
-  return data.map((datum) => (
-    <article className="post">
-      <h1 className="postHead">{datum.heading}</h1>
-      <p>{datum.content}</p>
+  return data.map((d) => (
+    <article className="post" key={d.index}>
+      <h1 className="postHead">{d.heading}</h1>
+      <p>{d.content}</p>
     </article>
   ));
 };

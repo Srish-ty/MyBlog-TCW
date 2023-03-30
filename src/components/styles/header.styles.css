@@ -1,16 +1,19 @@
 .header {
-  margin-top: -2vw;
+  background-color: #03191f;
+  font-size: 1.2em;
+  margin-top: -3vw;
   height: 100px;
-  padding: 2vw;
-  border: 1px solid white;
+  padding: 4vw;
+  border: 0px solid white;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .header {
     height: 20vw;
+    margin: auto;
     text-align: center;
   }
 }
-@media only screen and (max-width: 200px) {
+@media only screen and (max-width: 500px) {
   .header {
     height: 40vw;
     text-align: center;

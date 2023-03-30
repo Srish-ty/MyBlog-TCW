@@ -1,17 +1,20 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+
 import "./styles/post.styles.css";
 
 export const Post = ({ d }) => {
   return (
     <article className="post" key={d.index}>
-      <a to={d.route}>
+      <Link to={d.route}>
         <h1 className="postHead" to={d.route}>
           {d.heading}
         </h1>
-      </a>
+      </Link>
       <p className="content">{d.content}</p>
     </article>
   );
+  console.log(d.route);
 };
 
 export const PostContainer = () => {

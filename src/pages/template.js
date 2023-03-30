@@ -12,7 +12,7 @@ const Pagename = () => {
 };
 */
 export const Pagename = () => {
-  reutrn(
+  return (
     <PostContainer>
       <PostHead>{d.heading}</PostHead>
       <Content>{d.content}</Content>

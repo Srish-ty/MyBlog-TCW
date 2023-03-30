@@ -13,10 +13,10 @@ const Pagename = () => {
 */
 export const Pagename = () => {
   return (
-    <PostContainer>
-      <PostHead>{d.heading}</PostHead>
-      <Content>{d.content}</Content>
-    </PostContainer>
+    <article>
+      <h1>Heyy</h1>
+      <p>{d.content}</p>
+    </article>
   );
 };
 export default Pagename;

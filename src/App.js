@@ -56,7 +56,9 @@ export default function App() {
     <>
       <Header />
       <div className="post_container">
-        <Post data={data} />
+        {data.map((datum) => (
+          <Post d={datum} />
+        ))}
       </div>
     </>
   );

@@ -8,10 +8,10 @@
   display: flex;
   flex-direction: column-reverse;
 
-  font-size: 1.3em;
+  font-size: 1.26em;
 }
 @media only screen and (max-width: 600px) {
   .post_container {
-    font-size: 1.2em;
+    font-size: 1.15em;
   }
 }

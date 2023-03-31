@@ -1,34 +1,46 @@
 .post {
-  padding: 10px;
+  padding: 50px;
   width: 600px;
-  margin: 1vw auto;
+  margin: 1.3vw auto;
   border: 0px solid aqua;
+  border-radius: 1vw;
+  box-shadow: 0px 5px 1vw black;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .post {
+    padding: 20px;
     width: 85%;
-    margin: 2vw auto;
+    margin: 2.5vw 3vw;
   }
 }
 
 .postHead {
-  font-family: serif;
+  text-decoration: underline;
+  text-decoration-color: gray;
+  text-decoration-thickness: 2.5px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
   color: #02d1d1;
   text-align: center;
 }
+.postHead:hover {
+  text-decoration-color: #02d1d1;
+}
+
 .content {
   color: white;
 }
 /* visited link */
 .links {
+  text-decoration: none;
   color: gray;
 }
 .links:visited {
-  color: gray;
+  color: #02d1d1;
 }
 
 .links:hover {
-  color: #02d1d1;
+  text-decoration-color: #02d1d1;
 }
 
 .links:active {

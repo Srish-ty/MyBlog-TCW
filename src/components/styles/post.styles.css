@@ -4,7 +4,7 @@
   margin: 1.3vw auto;
   border: 0px solid aqua;
   border-radius: 1vw;
-  box-shadow: 0px 5px 1vw black;
+  box-shadow: 0px 7px 1vw black;
 }
 @media only screen and (max-width: 700px) {
   .post {
